@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>Super Calculadora</title>
+  </head>
+  <body>
+    <header>
+      <h1>Super Calculadora</h1>
+
+      <form>
+        <div class="form-group">
+          <label for="numberA">Primeiro número (A):</label>
+          <input type="number" id="numberA" name="numberA" required />
+        </div>
+
+        <div class="form-group">
+          <label for="numberB">Segundo número (B):</label>
+          <input type="number" id="numberB" name="numberB" required />
+        </div>
+      </form>
+    </header>
+
+    <main>
+      <div id="calc">
+        <div class="calc-group">
+          <h4>Soma (A + B):</h4>
+          <p id="soma"></p>
+        </div>
+
+        <div class="calc-group">
+          <h4>Subtração (A - B):</h4>
+          <p id="sub1"></p>
+        </div>
+
+        <div class="calc-group">
+          <h4>Subtração (B - A):</h4>
+          <p id="sub2"></p>
+        </div>
+
+        <div class="calc-group">
+          <h4>Multiplicação (A x B):</h4>
+          <p id="mult"></p>
+        </div>
+
+        <div class="calc-group">
+          <h4>Divisão (A / B):</h4>
+          <p id="div1"></p>
+        </div>
+
+        <div class="calc-group">
+          <h4>Divisão (B / A):</h4>
+          <p id="div2"></p>
+        </div>
+
+        <div class="calc-group">
+          <h4>Quadrado de A (A²):</h4>
+          <p id="quadA"></p>
+        </div>
+
+        <div class="calc-group">
+          <h4>Quadrado de B (B²):</h4>
+          <p id="quadB"></p>
+        </div>
+
+        <div class="calc-group">
+          <h4>Divisores inteiros de A:</h4>
+          <p id="divIntA"></p>
+        </div>
+
+        <div class="calc-group">
+          <h4>Divisores inteiros de B:</h4>
+          <p id="divIntB"></p>
+        </div>
+
+        <div class="calc-group">
+          <h4>Fatorial de A (A!):</h4>
+          <p id="fatA"></p>
+        </div>
+
+        <div class="calc-group">
+          <h4>Fatorial de B (B!):</h4>
+          <p id="fatB"></p>
+        </div>
+      </div>
+    </main>
+
+    <script src="./js/script.js"></script>
+  </body>
+</html>

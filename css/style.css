@@ -1,0 +1,82 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  background-color: aliceblue;
+  padding: 70px 150px 70px 150px;
+  color: cadetblue;
+}
+
+header h1 {
+  width: 100%;
+  font-weight: 900;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  color: darkcyan;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+form {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.form-group {
+  width: calc(100% / 2 - 20px);
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  font-size: 1.1rem;
+  margin-bottom: 10px;
+}
+
+input {
+  border: none;
+  background-color: transparent;
+  border-bottom: 2px solid cadetblue;
+  color: darkcyan;
+  font-size: 1.2rem;
+  font-weight: bold;
+  letter-spacing: 2px;
+  padding: 20px;
+  outline: none;
+}
+
+#calc {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.calc-group {
+  width: calc(100% / 3 - 40px);
+}
+
+h4 {
+  width: 100%;
+  font-weight: normal;
+}
+
+p {
+  width: 100%;
+  padding: 20px;
+  border-bottom: 1px solid cadetblue;
+  margin-bottom: 20px;
+  color: cadetblue;
+  font-size: 1.1rem;
+  letter-spacing: 1px;
+  font-weight: bolder;
+  white-space: pre-wrap;
+}
